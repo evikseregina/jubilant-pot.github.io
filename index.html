@@ -81,8 +81,12 @@
     <script>
         const buttonEl = document.querySelector('.header__button');
         const blockPopup = document.querySelector('.section');
+        const secondButton = document.querySelector('.section__btn');
 
         buttonEl.addEventListener('click', function (e) {
+            blockPopup.classList.toggle('visible');
+        });
+        secondButton.addEventListener('click', () => {
             blockPopup.classList.toggle('visible');
         });
     </script>

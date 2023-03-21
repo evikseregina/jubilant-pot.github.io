@@ -84,6 +84,7 @@ img {
 .section {
     padding-left: calc(50% - 470px/2);
     padding-right: calc(50% - 470px/2);
+    display: none;
 
 }
 
@@ -163,7 +164,7 @@ img {
 }
 
 .visible {
-    display: none;
+    display: block;
 }
 
 .main__title {
@@ -241,7 +242,7 @@ img {
 
 /* .about */
 .main__content-about {
-    margin-left: 200px;
+    margin-left: 500px;
     margin-bottom: 420px;
 }
 
